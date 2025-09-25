@@ -31,7 +31,7 @@ services:
     build: ./chatbot_admin
     container_name: my-python-admin-app
     ports:
-      - "8501:8501"
+      - "8503:8503"
     depends_on:
       - ollama
       - qdrant
